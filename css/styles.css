@@ -40,12 +40,12 @@ a{
 }
 
 .nav__item:hover,
-.nav__item:focus{
+.nav__item:focus {
     color: #404bbf;
 }
 
 .nav__link{
-    color: inherit;
+    color: currentColor;
 }
 
 .feedback{
@@ -57,7 +57,12 @@ a{
 }
 
 .feedback__link{
-    color: inherit;
+    color: currentColor;
+}
+
+.feedback__item:hover,
+.feedback__item:focus {
+    color: #404bbf;
 }
 
 .hero{
